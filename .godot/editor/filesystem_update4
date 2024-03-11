@@ -1,2 +1,9 @@
+res://dialogic_timelines/timeline1.dtl
 res://scenes/main_scene.tscn
+res://dialogic_characters/sivak.dch
 res://scenes/main_scene.gd
+res://addons/dialogic/Resources/timeline.gd
+res://addons/dialogic/Editor/Theme/MainTheme.tres
+res://addons/dialogic/Editor/Events/styles/unselected_stylebox.tres
+res://addons/dialogic/Editor/Events/styles/ResourceMenuPanelBackground.tres
+res://addons/dialogic/Editor/Events/styles/selected_styleboxflat.tres

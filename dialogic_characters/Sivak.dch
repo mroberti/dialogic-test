@@ -6,21 +6,21 @@
 "custom_info": {
 "sound_mood_default": "",
 "sound_moods": {},
-"style": "New_File"
+"style": ""
 },
 "default_portrait": "Default",
-"description": "Vulcan reporter",
-"display_name": "Sivak",
+"description": "asd",
+"display_name": "sivak",
 "mirror": false,
-"nicknames": ["Vulcan"],
+"nicknames": ["aaa"],
 "offset": Vector2(0, 0),
 "portraits": {
 "Default": {
 "export_overrides": {
-"image": "\"res://Sivak.png\""
+"image": "\"res://assets/Sivak/Default.png\""
 },
 "mirror": false,
-"offset": Vector2(0, 200),
+"offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
 }

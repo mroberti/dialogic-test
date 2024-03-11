@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dowfxupa12ukl"
-path="res://.godot/imported/Sivak.png-bbd2abcb2b8bad16e90a680faff5ab50.ctex"
+uid="uid://cfqqav4f1pxgg"
+path="res://.godot/imported/Default.png-11616d0b2886ec4f555cffbcf4f9dbff.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sivak.png"
-dest_files=["res://.godot/imported/Sivak.png-bbd2abcb2b8bad16e90a680faff5ab50.ctex"]
+source_file="res://assets/Sivak/Default.png"
+dest_files=["res://.godot/imported/Default.png-11616d0b2886ec4f555cffbcf4f9dbff.ctex"]
 
 [params]
 

@@ -16,20 +16,13 @@ var blurb_3 = news_blurbs["blurb_3"]
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	Dialogic.start("res://dialogic_timelines/timeline1.dtl")
-	pass;
 	# Example usage
-	print("Headline of blurb 1:", blurb_1)
-	print("Reporter of blurb 2:", blurb_2)
-
+	# print("Headline of blurb 1:", blurb_1)
+	# print("Reporter of blurb 2:", blurb_2)
 	var events : Array = []
 	var text_event = DialogicTextEvent.new()
-	text_event.text = blurb_1
-	text_event.character = load("res://dialogic_characters/Sivak.dch")
-
-	events.append(text_event)
-	text_event.text = blurb_2
-	text_event.character = load("res://dialogic_characters/Sivak.dch")
+	text_event.text = "Hey, this was made in code!"
+	text_event.character = load("res://dialogic_characters/sivak.dch")
 	events.append(text_event)
 
 	var timeline : DialogicTimeline = DialogicTimeline.new()
@@ -38,16 +31,3 @@ func _ready():
 	timeline.events_processed = true
 	Dialogic.start(timeline)
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
-
-func _input(event: InputEvent):
-	# check if a dialog is already running
-	if Dialogic.current_timeline != null:
-		return
-
-	if event is InputEventKey and event.keycode == KEY_ENTER and event.pressed:
-		Dialogic.start('chapterA')
-		get_viewport().set_input_as_handled()
